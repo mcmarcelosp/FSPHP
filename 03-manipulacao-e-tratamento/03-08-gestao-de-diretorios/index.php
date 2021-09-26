@@ -7,6 +7,9 @@ fullStackPHPClassName("03.08 - Gestão de diretórios");
  */
 fullStackPHPClassSession("verificar, criar e abrir", __LINE__);
 
+$folder = __DIR__ . "/uploads";
+mkdir($folder, 0755);
+
 
 /*
  * [ copiar e renomear ] copy | rename
