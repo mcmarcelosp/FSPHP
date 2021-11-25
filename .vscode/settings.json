@@ -3,18 +3,5 @@
     "window.autoDetectColorScheme": true,
     "workbench.colorTheme": "Default Dark+",
 
-
-    // PHP
-    // Here you can use your path to php
-    "php.validate.executablePath": "C:\\wamp64\\php7\\php.exe",
-    "php.suggest.basic": false,
-    "phpSniffer.run": "onType",
-    "phpSniffer.autoDetect": true,
-    // Here you can use another coding-style
-    "phpSniffer.standard": "PSR12",
-    "[php]": {
-        "editor.defaultFormatter": "wongjn.php-sniffer"
-
     }
     
-}
