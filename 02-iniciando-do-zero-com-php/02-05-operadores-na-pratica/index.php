@@ -8,6 +8,15 @@ echo fullStackPHPClassName("02.05 - Operadores na prática");
  */
 fullStackPHPClassSession("atribuição", __LINE__);
 
+$operatorA = 5;
+$operators = [
+    "a += 5" => ($operatorA +=5),
+    "a -= 5" => ($operatorA -=5),
+    "a *- 5" => ($operatorA /=5)
+];
+
+var_dump($operators);
+
 
 /**
  * [ comparação ] https://php.net/manual/pt_BR/language.operators.comparison.php
@@ -15,13 +24,26 @@ fullStackPHPClassSession("atribuição", __LINE__);
 fullStackPHPClassSession("comparação", __LINE__);
 
 
+
+
 /**
  * [ lógicos ] https://php.net/manual/pt_BR/language.operators.logical.php
  */
 fullStackPHPClassSession("lógicos", __LINE__);
 
+$logicA = true;
+$logicB = false;
+$logic = [
+    "a && b" => ($logicA && $logicB),
+    " || b" => ($logicA && $logicB),
+
+];
+
+var_dump($logic);
 
 /**
  * [ aritiméticos ] https://php.net/manual/pt_BR/language.operators.arithmetic.php
  */
 fullStackPHPClassSession("aritiméticos", __LINE__);
+
+phpinfo();
